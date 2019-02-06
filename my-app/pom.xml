@@ -96,7 +96,8 @@
           <configuration>
               <source>1.8</source>
               <target>1.8</target>
-              <fork>false</fork>
+              <fork>true</fork>
+			  <executable>C:\Program Files\Java\jdk1.8.0_144\bin\javac</executable>
               <!-- Add all the checkers you want to enable here -->
               <annotationProcessors>
                   <annotationProcessor>org.checkerframework.checker.nullness.NullnessChecker</annotationProcessor>
